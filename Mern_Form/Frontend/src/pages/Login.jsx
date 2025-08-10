@@ -23,7 +23,7 @@ const Login = () => {
             return handleError('All data are Required');
         }
         try {
-            const url = "http://localhost:4000/auth/login";
+            const url = "https://mern-form-lake.vercel.app/auth/login";
             const response = await fetch(url, {
                 method: "post",
                 headers: {
